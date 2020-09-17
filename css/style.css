@@ -1,0 +1,28 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-logo {
+  max-width: 400px;
+}
+
+.custom-navbar {
+  background-color: #4f95ff;
+}
+
+.text-right {
+  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .header-top {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .custom-navbar {
+    padding: 0 !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+}
