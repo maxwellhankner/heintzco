@@ -1,26 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .header-brand {
   padding: 8px;
 }
 
 .header-number {
   display: flex;
-  padding: 8px;
-}
-
-.header-number h2 {
-  font-size: 1.2rem;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 8px;
+  padding-bottom: 8px;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.header-number svg {
-  margin-right: 8px;
-  margin-top: auto;
-  margin-bottom: auto;
+.header-number i {
+  display: inline;
+  color: #000;
 }
 
-.header-number {
-  display: flex;
+.header-number h3 {
+  display: inline;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.header-number i {
+  margin-right: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .company-logo {
@@ -36,16 +52,87 @@
   margin-left: auto;
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: auto;
+}
+
+.footer-top {
+  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #4f95ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-element {
+  flex-basis: 30%;
+}
+
+.footer-info {
+  margin: 15px;
+}
+
+.footer-info-link i {
+  display: inline;
+}
+
+.footer-info-link p {
+  display: inline;
+}
+
+.footer-info {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: 0;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-info-item {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.footer-info-item a {
+  color: #fff;
+}
+
+.footer-image {
+  max-width: 100%;
+  max-height: 162px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-copyright p {
+  margin: 5px;
+}
+
 @media (min-width: 992px) {
   .header-top {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     justify-content: space-between;
   }
+  .header-number {
+    padding-top: 8px;
+  }
   .custom-navbar {
     padding: 0 !important;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-right: 15% !important;
+    padding-left: 15% !important;
+  }
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
