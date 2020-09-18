@@ -1,9 +1,26 @@
-.header-top {
+.header-number {
   display: flex;
-  justify-content: space-between;
+  padding: 8px;
+}
+
+.header-number h2 {
+  font-size: 1.2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-number svg {
+  margin-right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-number {
+  display: flex;
 }
 
 .company-logo {
+  width: 100%;
   max-width: 400px;
 }
 
@@ -19,6 +36,8 @@
   .header-top {
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
   }
   .custom-navbar {
     padding: 0 !important;
