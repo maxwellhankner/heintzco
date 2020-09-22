@@ -8,7 +8,7 @@ body {
   flex-direction: column;
 }
 
-/* ------------------------------------------------------------------------- Header */
+/* --------------- Header */
 .header-brand {
   padding: 8px;
 }
@@ -57,9 +57,10 @@ body {
   font-size: 18px;
 }
 
-/* ------------------------------------------------------------------------- Main */
+/* --------------- Main */
 
 main {
+  width: 100%;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -99,6 +100,16 @@ main p {
 
 /* Contact */
 
+.contact-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page div {
+  width: 100%;
+}
+
 .contact-page-info {
   text-align: center;
 }
@@ -113,7 +124,7 @@ main p {
   margin: auto;
 }
 
-/* ------------------------------------------------------------------------- Footer */
+/* --------------- Footer */
 
 footer {
   background-color: #333;
@@ -179,6 +190,8 @@ footer {
   margin: 5px;
 }
 
+/* --------------- Desktop */
+
 @media (min-width: 992px) {
   .header-top {
     padding-left: 15%;
@@ -196,6 +209,11 @@ footer {
   }
   .services-content {
     flex-direction: row;
+  }
+  .contact-page {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .footer-top {
     flex-direction: row;
