@@ -6,18 +6,11 @@
     <title>Heintz & Co. | Insurance Adjusters</title>
     <meta name="description" content="Multi-line insurance claims adjusters." />
     <link rel="icon" href="/images/favicon-64.png" sizes="64x64" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
   </head>
@@ -33,51 +26,83 @@
           /></a>
         </div>
         <div class="header-number">
-          <a class="footer-nav-link" href="tel:4065873200">
+          <a href="tel:4065873200">
             <i class="fas fa-phone-alt"></i>
             <h3>(406) 587-3200</h3>
           </a>
         </div>
       </div>
-      <div class="header-bottom">
-        <nav class="navbar navbar-expand-md navbar-light custom-navbar">
-          <button
-            class="navbar-toggler text-right"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav text-right">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <div class="header-bottom"></div>
     </header>
-    <main>
-      <h2>About Us</h2>
-      <p>
-        Heintz and Company was established in 1954 and has gone through two name
-        changes since its founding. We are currently staffed by 10 adjusters
-        with an excess of 200 years combined experience. All of our adjusters
-        are licensed and complete the required continuing education to fullfil
-        state requirements. Members of I.A.D.A.
-      </p>
-    </main>
+    <div class="main-container">
+      <div class="section about">
+        <h1>About Us</h1>
+        <p>
+          Heintz and Company was established in 1954 and has gone through two
+          name changes since its founding. We are currently staffed by 10
+          adjusters with an excess of 200 years combined experience. All of our
+          adjusters are licensed and complete the required continuing education
+          to fullfil state requirements. Members of I.A.D.A.
+        </p>
+      </div>
+      <div class="section services">
+        <h1>Services</h1>
+        <div class="services-content">
+          <div class="services-text">
+            <p>
+              Heintz & Company provides a multi-line claim service to the entire
+              state of Montana, entire state of Wyoming excluding the southeast
+              corner (Cheyenne area). We also service the western North Dakota
+              oil fields and eastern Idaho.
+            </p>
+            <br />
+            <p>
+              Our services include Automobile, long haul truck, heavy equipment,
+              agricultural, general liability, bodily injury, physical damage,
+              personal injury, homeowner and commercial property.
+            </p>
+          </div>
+          <div class="services-image">
+            <img
+              class="region-image"
+              src="/images/region-map.png"
+              alt="Aerial of Bozeman, Montana"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="section contact">
+        <h1>Contact</h1>
+        <div class="contact-content">
+          <div class="contact-text">
+            <p>
+              2504 West Main St. Suite #2A <br />
+              Bozeman, MT 59718
+            </p>
+            <p>
+              P.O. Box 1567 <br />
+              Bozeman, MT 59771
+            </p>
+            <p>heintzco@aol.com</p>
+            <p>(406) 587-3200</p>
+          </div>
+          <div class="contact-map">
+            <iframe
+              class="contact-google-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22301.232411837987!2d-111.07070338059334!3d45.6778448626432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4be0f5e31b71389!2sHeintz%20and%20Company%20INC.!5e0!3m2!1sen!2sus!4v1600543953056!5m2!1sen!2sus"
+              width="100%"
+              height="300"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="footer-top">
         <div class="footer-brand footer-element">
@@ -125,10 +150,10 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <p>© Copyright 2020 Heintz & Company, INC. All rights reserved.</p>
+        <p>© Copyright 2021 Heintz & Company, INC. All rights reserved.</p>
       </div>
     </footer>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
@@ -142,6 +167,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>
