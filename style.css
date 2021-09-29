@@ -221,6 +221,9 @@ footer {
     margin-bottom: 0px;
   }
   /* Contact */
+  .contact {
+    margin-bottom: 50px;
+  }
   .contact-content {
     width: 100%;
     flex-direction: row;
